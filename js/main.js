@@ -14,5 +14,7 @@ function onBallClick() {
     }
     elBall.style.width = ballGrow
     elBall.style.height = ballGrow
+    elBall.style.backgroundColor  = getRandomColor()
     elBall.innerText = gCurrentSize
+    
 }
