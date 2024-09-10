@@ -17,3 +17,7 @@ div{
     transition: 1s;
 }
 
+.ballA{
+    background-color:aqua;
+    margin-top: 250px;
+}
