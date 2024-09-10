@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+div{
+
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color:#ffff00;
+    border-radius: 50%;
+    text-align: center;
+
+}
