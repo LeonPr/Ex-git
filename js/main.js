@@ -7,8 +7,7 @@ function onBallClick() {
     var ballGrow=''
     const elBall = document.querySelector('.ball')
     if (gCurrentSize >= gMinSize && gCurrentSize < gMaxSize) {
-        ballGrow=`${gCurrentSize += 50}px`
-    
+        ballGrow=`${gCurrentSize += getRandomInt(20,60)}px`
     }    else{
         ballGrow=`${gMinSize}px`
         gCurrentSize=100
